@@ -1,0 +1,24 @@
+Q List and describe the five primitive data types in javascript.
+
+Ans = In Javascript, there are five basic, or primitive, types of data. The five most basic types of data are strings, numbers, booleans, undefined, and null. We refer to these as primitive
+ data types. 
+ Strings
+A string is a collection of alphanumeric characters. I start a string by typing double quotes, single quotes, or the backtick character. Double
+ quote and single quote behave identically, and the backtick character comes with some extra functionality.
+
+ Numbers 
+Numbers. Let’s talk about numbers. Numbers are as straightforward as they sound. Numbers are for numbers. I can’t put a letter on here
+
+Booleans
+Booleans have two values. True and false. When we create a boolean, we’re simply saying it’s true or it’s false. It’s like that on/off switch 
+example that we talked about. It’s all there is to them right now.
+
+Undefined
+The meaning of undefined is ‘value is not assigned’.
+
+Null
+This data type can hold only one possible value that is null.
+
+BigInt
+This data type can represent numbers greater than 253-1 which helps to perform operations on large numbers. The number is specified by writing ‘n’
+ at the end of the value

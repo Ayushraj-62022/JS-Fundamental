@@ -1,0 +1,19 @@
+Q Describe the categorization of operators in javascript provides on their functionality ?
+Ans = Operators in javascript are categorized based on their functionality
+a-- Arithmetic Operators
+
+    const sum = a+b 
+    const diff = a-b
+    let mult = a*b
+    let div = a/b
+b-- Assignment operators 
+    
+    const ayush = 10
+    it assign to ayush 
+
+c-- comparison operators
+
+    let raj = a>b 
+    let asdw = a<b
+    const equal = 10===10
+    

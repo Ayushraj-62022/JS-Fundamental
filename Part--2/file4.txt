@@ -1,0 +1,11 @@
+Q What is the purpose of declaring variables in javascript and how do you declare using the let keyword.
+Ans = The let keyword in Javascript was introduced in 2015 with ES6. Just like var in Javascript, let keyword is also used for variable
+ declaration. But the only difference is the variable declared with the “let” keyword is block-scoped and local variable. A variable declared
+  with let will be out of scope outside the block within which it has been declared.
+
+  In JavaScript, let is a keyword that is used to declare a block scoped variable. Usually, the var keyword is used to declare a variable in
+   JavaScript which is treated as a normal variable, but the variables declared using the let keyword are block scoped.
+
+JavaScript provides three ways to declare a variable: var, const, and let. These keywords deliver different functionality from each other.
+ Var is a traditional method to declare a variable while const and let keyword was introduced later by the ES2015/ES6, which creae block scope 
+ variable.

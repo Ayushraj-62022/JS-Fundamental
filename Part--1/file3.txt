@@ -1,0 +1,16 @@
+Q Differentiate between unary and binary operators in javascript . Give example of each 
+
+Ans Operators in javascript are categorized based on the number of operands .They require into the following group 
+
+Unary operator -- unary operator require only one operands 
+for example unary plus + , unary minus -
+
+Binary operator-- Binary operators require two operands
+ let sum = a+b
+ let diff = a-b 
+ let mult = a*b 
+ let check = a==b
+ let greater = a>b
+ let lesser = a<b
+ const logical = a&&b
+ 

@@ -1,0 +1,46 @@
+Q Explain the key differences between javascript and HTML. Provides an example of situation where you would use each.
+Javascrpt :
+JavaScript is a programming language that conforms to the ECMAScript specification. It is a high-level scripting language introduced by Netscape 
+to be run on the client-side of the web browser. It can insert dynamic text into HTML.JavaScript is also known as the browser’s language.
+It is a programming language conforming to the specification of ECMAScript. Often abbreviated as JS, JavaScript is a scripting language of high
+ level that can be used to insert some dynamic texts into the HTML code. Thus, it is also called the browser’s language. Netscape introduced it
+  for running on a web browser’s client-side. Branden Eich designed the JS, and it first appeared back in 1995. The ECMA group
+   (European Computer Manufacturers Association) standardised it and also maintained it; thus, it was initially named ECMAScript as a standard.
+
+To interpret the JS code and run it in a program, one would always require the JS engine. These days, a majority of web browsers have this JS
+ engine on both server-side as well as client-side.
+
+HTML:
+HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. It is the 
+combination of Hypertext and Markup language. Hypertext defines the link between the web pages.
+The term HTML is an abbreviation for HyperText Markup Language. HTML is basically the building block of the basics of the web that defines the 
+structure and meaning of the web content. It’s a combination of the hypertext along with the markup language, where the hypertext defines the link
+ present between the various web pages in the website.
+
+The HTML language was released back in 1993. The latest version of HTML, as of now, is HTML 5.2, and the extensions can be either .htm or .html, 
+where we most commonly use the .html extension.
+
+The World Wide Web Consortium (W3C) developed HTML along with the Web Hypertext App Tech Working Group (WHATWG). We can also modify the look and 
+make HTML web pages look better when we include Cascading Style Sheets (CSS). The W3C maintains the CSS. It makes the overall look and feel of web
+ pages better and richer by including or loading the contents in an HTML web page.
+
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Web Page</title>
+    <script>
+
+        // JavaScript function to change the color of a text when clicked
+        function changeColor() {
+            var textElement = document.getElementById("myText");
+            textElement.style.color = "blue";
+
+        }
+    </script>
+</head>
+<body>
+    <h1>Welcome to My Interactive Web Page</h1>
+    <p>This is a sample webpage with a <span id="myText"
+onclick="changeColor()">clickable text</span>.</p>
+</body>
+</html>

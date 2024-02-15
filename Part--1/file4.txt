@@ -1,0 +1,13 @@
+Q Discuss the precendence and associativity of operators in javascript . why is understanding these concepts important ?
+
+Ans= Operator precedence and associativity specify the order in which operations are performed in a complex expression, but they do not specify
+ the order in which the subexpressions are evaluated. JavaScript always evaluates expressions in strictly left-to-right order. In the expression
+  w=x+y*z, for example, the subexpression w is evaluated first, followed by x, y, and z. Then the values of y and z are multiplied, added to the
+  value of x, and assigned to the variable or property specified by expression w. Adding parentheses to the expressions can change the relative
+   order of the multiplication, addition, and assignment, but not the left-to-right order of evaluation.
+
+   Operator precedence refers to the order in which JavaScript evaluates operators in an expression. For example, in the expression 5 + 2 * 3, 
+   JavaScript will first evaluate the multiplication operator * before the addition operator +, resulting in the value 11. However, if we want the
+    addition to be evaluated first, we can use parentheses to change the order of evaluation, like this: (5 + 2) * 3, which will result in the value 21
+    
+    
